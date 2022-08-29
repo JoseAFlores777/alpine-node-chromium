@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:latest as base
 
 LABEL org.opencontainers.image.authors="Aleksandar Diklic https://github.com/rastasheep"
 
